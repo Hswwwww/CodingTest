@@ -9,7 +9,7 @@ class Array06 {
 		ArrayList<Integer> answer = new ArrayList<>();
 		int[] array = new int[n];
 		for(int i = 0; i<arr.length; i++) {
-			String tmp = new StringBuilder(arr[i]).reverse().toString();
+			String tmp = new StringBuilder(String.valueOf(arr[i])).reverse().toString();
 			array[i]+=Integer.valueOf(tmp);
 			
 		}
