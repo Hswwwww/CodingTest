@@ -2,7 +2,7 @@ package Stack_Queue;
 
 import java.util.Scanner;
 import java.util.Stack;
-
+//카카오
 public class ex03 {
     public static int solution(int n, int[][] arr,int k, int[] moves){
         int answer = 0;
